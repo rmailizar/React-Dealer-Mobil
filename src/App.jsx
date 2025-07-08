@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Promo from "./pages/Promo";
 import PriceList from "./pages/Pricelist";
 import Gallery from "./pages/Gallery";
-import TestDrive from "./pages/TestDrive";
+import TestDrive from "./pages/Testdrive";
 import Simulasi from "./pages/Simulasi";
 import Contact from "./pages/Contact";
 
