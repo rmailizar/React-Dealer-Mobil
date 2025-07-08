@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 
 import Home from "./pages/Home";
 import Promo from "./pages/Promo";
-import PriceList from "./pages/PriceList";
+import PriceList from "./pages/Pricelist";
 import Gallery from "./pages/Gallery";
 import TestDrive from "./pages/TestDrive";
 import Simulasi from "./pages/Simulasi";
