@@ -4,10 +4,9 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Promo from "./pages/Promo";
 import PriceList from "./pages/Pricelist";
-import Gallery from "./pages/Gallery";
 import TestDrive from "./pages/Testdrive";
-import Simulasi from "./pages/Simulasi";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -22,6 +21,7 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
+      <Footer />
     </Router>
   );
 }

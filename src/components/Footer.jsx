@@ -30,7 +30,7 @@ export default function Footer() {
 
         {/* Menu navigasi utama */}
         <nav className="flex flex-wrap justify-center space-x-6 font-semibold uppercase text-sm tracking-wide">
-          <NavLink to="/promo" className="hover:text-green-400 transition">Promo</NavLink>          
+          <NavLink to="/promo" className="hover:text-[#0028c6] transition">Promo</NavLink>          
           <NavLink to="/pricelist" className="hover:text-[#0028c6] transition">Price List</NavLink>          
           <NavLink to="/testdrive" className="hover:text-[#0028c6] transition">Test Drive</NavLink>          
           <NavLink to="/contact" className="hover:text-[#0028c6] transition">Contact Us</NavLink>

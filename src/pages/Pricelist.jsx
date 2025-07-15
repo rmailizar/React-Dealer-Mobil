@@ -1,9 +1,10 @@
 import React from 'react'
+import CardPricelist from '../components/CardPricelist'
 
 function Pricelist() {
   return (
     <div>
-      <h1 className="text-5xl font-bold mb-4">Pricelist</h1>
+      <CardPricelist />
     </div>
   )
 }

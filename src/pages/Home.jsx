@@ -12,7 +12,6 @@ function Home() {
       <Services />
       <Product />
       <AboutCar />
-      <Footer />
     </div>
   )
 }
