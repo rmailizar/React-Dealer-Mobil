@@ -18,13 +18,16 @@ export default function Navbar() {
       <div className="bg-[#0072c6] h-1 w-full" />
 
       <nav className="flex items-center justify-between px-6 py-4 bg-white">
+        
         {/* Logo */}
+        <NavLink to="/">      
         <div className="flex items-center space-x-2">
           <img src={logo} alt="BMW Logo" className="h-8 w-8 object-contain" />
           <span className="text-2xl md:text-3xl font-bold text-[#0072c6]">
             BMW
           </span>
         </div>
+        </NavLink>
 
         {/* Hamburger - muncul saat mobile */}
         <button
