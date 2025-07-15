@@ -6,6 +6,7 @@ import bmw3 from "../assets/bmw3.jpg"
 import bmw4 from "../assets/bmw4.jpg"
 import bmw5 from "../assets/bmw5.jpg"
 import bmw7 from "../assets/bmw7.jpg"
+
 // Data produk 
 const productList = [
   {
@@ -45,7 +46,7 @@ export default function Product() {
     <div id="product" className="min-h-screen bg-[#0f0f0f] text-white my-10 py-10 px-6 md:my-0">
       <h1 className="text-3xl font-bold mb-8 text-center">Best Product</h1>
 
-      <div className="grid gap-4 grid-cols-1 md:grid-cols-3 justify-center">
+      <div className="grid gap-7 grid-cols-1 md:grid-cols-3 justify-center">
         {productList.map((product, index) => (
           <div
             key={index}
