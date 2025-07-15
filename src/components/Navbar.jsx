@@ -4,10 +4,9 @@ import logo from "../assets/bmw-logo.svg";
 
 const navItems = [
   { name: "HOME", path: "/" },
-  { name: "PROMO", path: "/promo" },
   { name: "PRICE LIST", path: "/pricelist" },
-  { name: "TEST DRIVE", path: "/testdrive" },
-  { name: "CONTACT US", path: "/contact" },
+  { name: "TEST DRIVE", path: "https://maps.app.goo.gl/uxva4dNHupmD9RdQA" },
+  { name: "CONTACT US", path: "https://wa.me/6289653479540" },
 ];
 
 export default function Navbar() {

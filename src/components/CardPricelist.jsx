@@ -98,7 +98,7 @@ export default function Product() {
           <div
             key={index}
             data-aos="fade-up"
-            data-aos-delay={index * 100} // delay bertahap antar card
+            data-aos-delay={index * 50} // delay bertahap antar card
             className="bg-white rounded-xl shadow hover:shadow-lg transition-all duration-300 overflow-hidden">
             {/* Header */}
             <div className="flex items-center justify-center px-6 py-4">

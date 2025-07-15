@@ -3,7 +3,6 @@ import Hero from '../components/Hero'
 import Product from '../components/Product'
 import Services from '../components/Services'
 import AboutCar from '../components/AboutCar'
-import Footer from '../components/Footer'
 
 function Home() {
   return (
