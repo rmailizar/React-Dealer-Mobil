@@ -41,7 +41,7 @@ export default function Services() {
     }, []);
 
   return (
-    <section className="h-[90vh] bg-white py-20 px-4 md:px-20">
+    <section className="h-[90vh] bg-white py-0 md:py-20 px-4 md:px-20">
       <div className="text-center mb-12" data-aos="fade-up">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">
           What Our Service Provide
