@@ -78,17 +78,20 @@ const productList = [
 export default function Product() {
     useEffect(() => {
         AOS.init({
-            duration: 600,   // durasi animasi
+            duration: 600,   
             easing: "ease-out-cubic",
-            once: true,      // hanya sekali animasi
+            once: true,     
         });
         }, []);
 
    return (
     <div className="min-h-screen bg-gray-100 py-12 px-4">
-      <h1 className="text-3xl font-bold text-center text-gray-800 mb-10">
+      <h1 className="text-3xl font-bold text-center text-gray-800 mb-3">
         BMW Pricelist
       </h1>
+      <div className="flex justify-center mb-10">
+        <div className="h-1 w-24 bg-blue-500 rounded-full"></div>
+      </div>
 
       <div className="grid grid-cols-1 gap-6 max-w-5xl mx-auto">
         {productList.map((series, index) => (
