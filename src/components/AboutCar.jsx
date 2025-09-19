@@ -9,7 +9,7 @@ export default function Car() {
       <div className="w-full lg:w-1/2 px-5">
       <img
         src={bmwImage}
-        alt="BMW i8 Cheers"
+        alt="BMW i8 Cheerss"
         className="w-full object-cover rounded-2xl shadow-lg"
       />
       </div>
